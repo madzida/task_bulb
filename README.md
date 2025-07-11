@@ -1,10 +1,10 @@
-# Personal Weather Assistant 🌤️
+# Personal Weather Assistant
 
 This is a mini web application that provides personalized weather forecasts and clothing recommendations based on the selected city and date.
 
 ---
 
-## 🧩 Tech Stack
+## Tech Stack
 
 - **Frontend:** React JS
 - **Backend:** Node.js (Express)
@@ -15,16 +15,16 @@ This is a mini web application that provides personalized weather forecasts and 
 
 ## Installation
 
-1. **Clone the repository**
+### 1. Clone the repository
 
 ```
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 ```
 
-2. **Install dependencies**
+### 2. Install dependencies
 
-### Backend
+**Backend**
 
 ```
 cd backend
@@ -54,23 +54,22 @@ To use the OpenWeatherMap API, you need to:
 https://home.openweathermap.org/api_keys
 3. Paste the API key in *.env* file.
 
-### Frontend
+**Frontend**
 
 ```
 cd frontend
 npm install
 ```
 
-3. **Running the app**
+### 3. Running the app
 
-### Start the backend server
+**Start the backend server**
 
 ```
 cd backend
 node index.js
 ```
-
-### Start the frontend app
+**Start the frontend app**
 
 ```
 cd frontend
