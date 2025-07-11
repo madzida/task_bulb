@@ -19,7 +19,7 @@ This is a mini web application that provides personalized weather forecasts and 
 
 ```
 git clone https://github.com/madzida/task_bulb.git
-cd your-repo-name
+cd task_bulb
 ```
 
 ### 2. Install dependencies
