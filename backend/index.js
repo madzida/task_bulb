@@ -51,10 +51,10 @@ app.post('/weather', async (req, res) => {
       const desc = f.weather[0].description;
       return `${time} - ${temp}°C, ${desc}`;
     }).join("\n");
-    const prompt = `Based on the weather forecast below, give general clothing and activity recommendations for the whole day in ${city} on ${date}. 
+    const prompt = `Based on the weather forecast below, give clothing and activity recommendations for the whole day in ${city} on ${date}. 
     Forecast: 
     ${forecastSummary}
-    Please summarize overall weather trends and suggest what people should wear and do that day.`;
+    Please summarize overall weather trends and suggest what people should wear and do that day. Also include specific and detailed activity ideas such as which museums, parks, cafes, or outdoor attractions to visit depending on the weather conditions.`;
  
     const chatCompletion = await groq.chat.completions.create({
       messages: [
